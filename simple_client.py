@@ -1,6 +1,6 @@
 import websocket
 import sys
-conn_string=sys.srgv[1]
+conn_string=sys.argv[1]
 
 websocket.enableTrace(True)
 ws = websocket.WebSocket()
